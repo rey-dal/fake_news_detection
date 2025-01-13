@@ -15,17 +15,6 @@ Une application web de machine learning conçue pour détecter les fake news en 
 * Modèle de machine learning avec haute précision
 * Expérience utilisateur simple et intuitive
 
-### Technologies Utilisées
-
-* Backend : 
-* Flask
-* Machine Learning :
-    * Régression Logistique
-    * scikit-learn
-    * NLTK
-* Frontend : HTML, CSS
-* Déploiement : Render
-
 
 ### Détails
 
@@ -73,11 +62,14 @@ Le modèle utilise plusieurs techniques de traitement du langage naturel pour pr
    - 0 : Vraie Nouvelle (Real News)
    - 1 : Fausse Nouvelle (Fake News)
 
-#### Bibliothèques Principales
-- scikit-learn
-- NLTK
-- pandas
-- Flask
+Backend : 
+* Flask
+* Machine Learning :
+    * Régression Logistique
+    * scikit-learn
+    * NLTK
+* Frontend : HTML, CSS
+
 
 ### How to Use
 1. Entrez le texte de la nouvelle dans la zone de saisie
