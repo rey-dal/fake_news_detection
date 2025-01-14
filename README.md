@@ -5,11 +5,8 @@ Une application web de machine learning conçue pour détecter les fake news en 
 
 - Le jeu de données Kaggle (fake_train,fake_test)
 
-- Le preprocessing du texte et l'entrainement des données avec 3 modèles:
+- Le preprocessing du texte et l'entrainement des données.
 
-1. Naive Bayes Multinomial   
-2. Régression Logistique  
-3. Réseau de Neurones Profonds LSTM  
 - Le modèle de Régression Logistique adopté comme modèle final pour ce projet et construit une application Flask avec ce modèle. 
 
 ### Fonctionnalités
@@ -30,7 +27,7 @@ Une application web de machine learning conçue pour détecter les fake news en 
     - GridSearchCV
     - Validation croisée K-fold
 
-### Détails Techniques du Modèle de Classification
+### Détails Techniques 
 
 #### Processus de Prétraitement du Texte
 Le modèle utilise plusieurs techniques de traitement du langage naturel pour préparer le texte :
