@@ -67,6 +67,9 @@ pip install -r requirements.txt
 python app1.py
 
 ### How to Use
-1. Entrez le texte de la nouvelle dans la zone de saisie
+1. Entrez le texte 
 2. Cliquez sur "Predict"
 3. Recevez la classification (Fake news ou Real news)
+
+![image](https://github.com/user-attachments/assets/1290ed85-c17f-43ca-9a1b-2e3427661ecd)
+
