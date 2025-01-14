@@ -11,11 +11,9 @@ Une application web de machine learning conçue pour détecter les fake news en 
 
 ### Fonctionnalités
 
-* Détection de fausses nouvelles en temps réel
+* Détection de fake news en temps réel
 * Interface web
-* Modèle de machine learning avec haute précision
-* Expérience utilisateur simple et intuitive
-
+* Expérience utilisateur simple
 
 ### Détails
 
@@ -28,6 +26,14 @@ Une application web de machine learning conçue pour détecter les fake news en 
     - Validation croisée K-fold
 
 ### Détails Techniques 
+
+Backend : 
+* Flask
+* Machine Learning :
+    * Régression Logistique
+    * scikit-learn
+    * NLTK
+* Frontend : HTML, CSS
 
 #### Processus de Prétraitement du Texte
 Le modèle utilise plusieurs techniques de traitement du langage naturel pour préparer le texte :
@@ -50,34 +56,17 @@ Le modèle utilise plusieurs techniques de traitement du langage naturel pour pr
 
 #### Modèle de Classification
 - Régression Logistique
-- Précision : 93.52%
-- Techniques avancées :
+- Techniques :
   - GridSearchCV pour l'optimisation des hyperparamètres
   - Validation croisée K-fold
-
-#### Workflow de Prédiction
-1. Prétraitement du texte d'entrée
-2. Vectorisation
-3. Prédiction binaire :
-   - 0 : Vraie Nouvelle (Real News)
-   - 1 : Fausse Nouvelle (Fake News)
-
-Backend : 
-* Flask
-* Machine Learning :
-    * Régression Logistique
-    * scikit-learn
-    * NLTK
-* Frontend : HTML, CSS
-
-
-### How to Use
-1. Entrez le texte de la nouvelle dans la zone de saisie
-2. Cliquez sur "Predict"
-3. Recevez la classification (Fake news ou Real news)
 
 ### Installation
 
 pip install -r requirements.txt
 
 python app1.py
+
+### How to Use
+1. Entrez le texte de la nouvelle dans la zone de saisie
+2. Cliquez sur "Predict"
+3. Recevez la classification (Fake news ou Real news)
